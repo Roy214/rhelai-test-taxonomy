@@ -33,22 +33,37 @@ seed_examples:
         answer: |
           Apache-2.0.
   - context: |
-        RHEL AI consists of Instruct Lab, bootc image, granite models and Enterprise-grade technical support and Open Source Assurance legal protections.InstructLab model alignment tools, which open the world of community-developed LLMs to a wide range of users.A bootable image of Red Hat Enterprise Linux, including popular AI libraries such as PyTorch and hardware optimized inference for NVIDIA, Intel, and AMD.Enterprise-grade technical support and Open Source Assurance legal protections.
+        RHEL AI consists of Instruct Lab, bootc image, granite models and Enterprise-grade technical support and Open S
+ource Assurance legal protections.InstructLab model alignment tools, which open the world of community-developed LLMs t
+o a wide range of users.A bootable image of Red Hat Enterprise Linux, including popular AI libraries such as PyTorch an
+d hardware optimized inference for NVIDIA, Intel, and AMD.Enterprise-grade technical support and Open Source Assurance
+legal protections.
     questions_and_answers:
       - question: |
           What are the components of RHEL AI?
         answer: |
-          Instruct Lab, bootc image, granite models and Enterprise-grade technical support and Open Source Assurance legal protections.
+          Instruct Lab, bootc image, granite models and Enterprise-grade technical support and Open Source Assurance le
+gal protections.
+      - question: |
+          What are the popular AI libraries in RHEL AI ?
+        answer: |
+          PyTorch and TensorFlow
+      - question: |
+          What are key offerings with RHEL AI from Red Hat ?
+        answer: |
+          Enterprise-grade technical support and Open Source Assurance legal protections.
   - context: |
         Red Hat Enterprise Linux AI allows you to do the following:
         Host an LLM and interact with the open source Granite family of Large Language Models (LLMs).
-        Using the LAB method, create and add your own knowledge data in a Git repository and fine-tune a model with that data with minimal machine learning background.
+        Using the LAB method, create and add your own knowledge data in a Git repository and fine-tune a model with tha
+t data with minimal machine learning background.
         Interact with the model that has been fine-tuned with your data.
     questions_and_answers:
       - question: |
           What RHEL AI offers you?
         answer: |
-          Red Hat Enterprise Linux AI is a platform that allows you to develop enterprise applications on open source Large Language Models (LLMs).
+          Red Hat Enterprise Linux AI is a platform that allows you to develop enterprise applications on open source L
+arge Language Models (LLMs).
       - question: |
           Can I create a chatbot using RHEL AI?
         answer: |
@@ -59,6 +74,7 @@ seed_examples:
           Yes.
   - context: |
         InstructLab is an open source AI project that facilitates contributions to Large Language Models (LLMs). RHEL AI takes the foundation of the InstructLab project and builds an enterprise platform for LLM integration on applications. Red Hat Enterprise Linux AI targets high performing server platforms with dedicated Graphic Processing Units (GPUs). InstructLab is intended for small scale platforms, including laptops and personal computers.InstructLab implements the LAB (Large-scale Alignment for chatBots) technique, a novel synthetic data-based fine-tuning method for LLMs. The LAB process consists of several components A taxonomy-guided synthetic data generation process,A multi-phase training process,A fine-tuning framework.RHEL AI and InstructLab allow you to customize an LLM with domain-specific knowledge for your distinct use case.
+    questions_and_answers:
       - question: |
           What is iLab?
         answer: |
@@ -74,7 +90,8 @@ seed_examples:
 document_outline: |
   This repo will be used to train model which can cater known issues in RHEL AI..
 document:
-  repo: https://github.com/Roy214/rhelai-test-taxonomy/new/main
+  #repo: https://github.com/Roy214/rhelai-test-taxonomy/new/main
+  repo: https://github.com/Roy214/rhelai-test-taxonomy/
   commit: cf6d4ebcc1827f442ce84c84b01aec26b496b9af
   patterns:
     - README.md
